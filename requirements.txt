@@ -1,0 +1,7 @@
+streamlit
+requests
+PyPDF2
+streamlit-mic-recorder
+plotly
+pandas
+streamlit-option-menu
