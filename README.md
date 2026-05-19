@@ -2,11 +2,10 @@
 
 Career Mate AI is an AI-powered placement readiness platform designed to help students evaluate and improve their interview preparation.
 The system integrates Resume ATS Analysis, Aptitude Tests, Technical Interviews, HR Round Evaluation, and Job Description Matching into a single intelligent dashboard.
+--This project is built using Python, Streamlit, and Local LLM (Ollama – Llama 3.2) to provide a realistic interview preparation experience.f
 
-This project is built using Python, Streamlit, and Local LLM (Ollama – Llama 3.2) to provide a realistic interview preparation experience.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 2.Features
-
 ✅ User Authentication (Login & Sign Up)
 ✅ Resume ATS Analysis with AI Feedback
 ✅ Aptitude MCQ Test with Automatic Scoring
@@ -78,7 +77,7 @@ The dashboard dynamically calculates performance and highlights strengths and we
 git clone https://github.com/Mandhalasushanth/AIcareermate.git
 cd AIcareermate
 
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies---
 pip install -r requirements.txt
 
 3️⃣ Install Ollama and Pull Model
@@ -90,20 +89,11 @@ Make sure Ollama is running locally on:
 http://localhost:11434
 
 4️⃣ Run the Application
-streamlit run main.py
+-- streamlit run main.py
 ------------------------------------------------------------------------------------------------------------------------------------------
 ☁️ Deployment Notes
 
-⚠️ This project uses a local AI model (Ollama).
-Cloud platforms like Vercel cannot run local LLM services directly.
-
-Recommended deployment platforms:
-
-Streamlit Community Cloud
-
-Render
-
-VPS with Ollama installed
+ live demo---https://aicareermate-hfon5qbvvdqnwyq4bmxmwe.streamlit.app/
 -----------------------------------------------------------------------------------------------------------------------------------------
 🔐 Current Limitations
 
